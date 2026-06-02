@@ -57,7 +57,7 @@ Current level: **L1 Alpha in progress**.
 - [ ] Member login flow drafted.
 - [ ] Dashboard widgets tested with safe JSON.
 - [ ] Public/private field allowlist exists.
-- [ ] Static fallback pages exist.
+- [x] Static fallback pages exist.
 - [ ] Public pages avoid financial-product wording.
 
 ## Compliance checks
@@ -99,3 +99,7 @@ Move toward L2 by completing:
 3. dashboard export allowlist
 4. static dashboard JSON test file
 5. Squarespace page slug map
+
+## 2026-06-02 update
+
+`dashboard_widgets/squarespace_launch_embed.html` has been added as the L1 public-safe Squarespace embed. It is self-contained and uses inline redacted demo data so it can be pasted into a Squarespace Code Block before any live endpoint is approved.
